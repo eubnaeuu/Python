@@ -1,12 +1,59 @@
 -- VERSION_5
 -- START DISKCACHE_3
 D:\workspace_python\.metadata\.plugins\org.eclipse.core.resources\.projects\HELLOPYTHON\com.python.pydev.analysis\v2_indexcache
+day02.And_Or|1620002696968999400|D:\workspace_python\HELLOPYTHON\day02\And_Or.py
+day02.mygawi|1620011990544710200|D:\workspace_python\HELLOPYTHON\day02\mygawi.py
+day02.For|1620006435584022700|D:\workspace_python\HELLOPYTHON\day02\For.py
+day02.Variable|1620002659782050700|D:\workspace_python\HELLOPYTHON\day02\Variable.py
+day02.For2|1620006485710344700|D:\workspace_python\HELLOPYTHON\day02\For2.py
+day02.myex|1620013254598814000|D:\workspace_python\HELLOPYTHON\day02\myex.py
+day02.OddEvenGame|1620013360733889800|D:\workspace_python\HELLOPYTHON\day02\OddEvenGame.py
+day03.mydef01|1620013616679943700|D:\workspace_python\HELLOPYTHON\day03\mydef01.py
+day01.Hello|1619746301953455300|D:\workspace_python\HELLOPYTHON\day01\Hello.py
+day02.Braces_If_2|1620004434741212300|D:\workspace_python\HELLOPYTHON\day02\Braces_If_2.py
+day02.Braces_If|1620002584548952300|D:\workspace_python\HELLOPYTHON\day02\Braces_If.py
 -- END DISKCACHE
 -- START DICTIONARY
-0
+18
+2=day02.And_Or
+12=day02.mygawi
+7=D:\workspace_python\HELLOPYTHON\day03\mydef01.py
+10=day02.For
+1=D:\workspace_python\HELLOPYTHON\day02\And_Or.py
+6=day02.Variable
+16=day02.myex
+8=day03.mydef01
+14=day02.OddEvenGame
+5=D:\workspace_python\HELLOPYTHON\day02\Variable.py
+18=day02.Braces_If_2
+17=D:\workspace_python\HELLOPYTHON\day02\Braces_If_2.py
+9=D:\workspace_python\HELLOPYTHON\day02\For.py
+11=D:\workspace_python\HELLOPYTHON\day02\mygawi.py
+13=D:\workspace_python\HELLOPYTHON\day02\OddEvenGame.py
+15=D:\workspace_python\HELLOPYTHON\day02\myex.py
+3=D:\workspace_python\HELLOPYTHON\day02\Braces_If.py
+4=day02.Braces_If
 -- END DICTIONARY
 -- START TREE 1
-0
+18
+a|3|a!1^1#1*19@a!3^1#1*35@a!5^1#1*51@
+add|1|add!7^1#5*66@
+ans|0|
+arr|3|arrc!9^7#1*83@arra!9^1#1*83@arrb!9^6#1*83@
+b|3|b!1^2#1*19@b!3^2#1*35@b!5^2#1*51@
+c|2|c!5^3#1*51@c!1^3#1*19@
+com|4|comnum!11^5#1*99@comans!11^9#5*99@com!11^2#1*99@com!13^4#1*115@
+d|1|d!1^4#1*19@
+ex0|5|ex03!15^23#5*130@ex01!15^3#5*130@ex04!15^29#5*130@ex02!15^12#5*130@ex05!15^40#5*130@
+gug|1|gugudan!15^49#5*130@
+inp|0|
+min|3|mine!11^3#1*99@min!7^3#5*66@mine!13^2#1*115@
+ran|1|rand!13^3#1*115@
+res|2|result!11^4#1*99@result!13^5#1*115@
+rnd|0|
+sco|1|score!17^1#1*147@
+sum|1|sum!7^10#1*67@
+tmp|0|
 -- END TREE
 -- START TREE 2
 0
