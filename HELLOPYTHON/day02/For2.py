@@ -9,5 +9,3 @@ for i in [1,2,3] :
 #3 : 이전 i의 마지막값(3)이 적용됨
 for i in range(i+1):
     print(i) # 0,1,2,3
-
-
