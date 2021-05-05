@@ -10,7 +10,7 @@ day02.For2|1620099059923302800|D:\workspace_python\HELLOPYTHON\day02\For2.py
 day02.OddEvenGame|1620013360733889800|D:\workspace_python\HELLOPYTHON\day02\OddEvenGame.py
 day03.myoop01|1620091662312082200|D:\workspace_python\HELLOPYTHON\day03\myoop01.py
 day01.Hello|1619746301953455300|D:\workspace_python\HELLOPYTHON\day01\Hello.py
-day03.myoop2|1620094345992338700|D:\workspace_python\HELLOPYTHON\day03\myoop2.py
+day03.myoop02|1620122164373353400|D:\workspace_python\HELLOPYTHON\day03\myoop02.py
 day02.Braces_If_2|1620004434741212300|D:\workspace_python\HELLOPYTHON\day02\Braces_If_2.py
 day02.Braces_If|1620002584548952300|D:\workspace_python\HELLOPYTHON\day02\Braces_If.py
 day03.mydef_multireturn|1620086957521968700|D:\workspace_python\HELLOPYTHON\day03\mydef_multireturn.py
@@ -25,34 +25,34 @@ day03.mydef_basic|1620013779870213600|D:\workspace_python\HELLOPYTHON\day03\myde
 3=D:\workspace_python\HELLOPYTHON\day02\And_Or.py
 6=day02.Variable
 18=day02.OddEvenGame
-25=JindoDog
+27=JindoDog
 12=day03.myoop01
-22=day03.myoop2
+22=day03.myoop02
 31=Human.gotoSchool
 32=SokchoBird.__init__
 33=SokchoBird.practice
 17=D:\workspace_python\HELLOPYTHON\day02\OddEvenGame.py
+21=D:\workspace_python\HELLOPYTHON\day03\myoop02.py
 19=D:\workspace_python\HELLOPYTHON\day02\myex.py
 1=D:\workspace_python\HELLOPYTHON\day02\Braces_If.py
 36=JindoDog.__init__
 7=D:\workspace_python\HELLOPYTHON\day03\mydef_multireturn.py
 34=Animal.__init__
-29=Human
+26=Human
 16=day02.mygawi
-26=SokchoBird
-27=Gaesae
+28=SokchoBird
+29=Gaesae
 20=day02.myex
 5=D:\workspace_python\HELLOPYTHON\day02\Variable.py
 24=day02.Braces_If_2
 11=D:\workspace_python\HELLOPYTHON\day03\myoop01.py
 23=D:\workspace_python\HELLOPYTHON\day02\Braces_If_2.py
-28=Animal
+25=Animal
 13=D:\workspace_python\HELLOPYTHON\day02\For.py
 15=D:\workspace_python\HELLOPYTHON\day02\mygawi.py
 2=day02.Braces_If
 8=day03.mydef_multireturn
 10=day03.mydef_basic
-21=D:\workspace_python\HELLOPYTHON\day03\myoop2.py
 9=D:\workspace_python\HELLOPYTHON\day03\mydef_basic.py
 -- END DICTIONARY
 -- START TREE 1
@@ -67,7 +67,7 @@ com|4|comnum!15^5#1*131@comans!15^9#5*131@com!17^4#1*147@com!15^2#1*131@
 d|1|d!3^4#1*35@
 div|2|div!9^14#1*83@division!9^8#5*82@
 ex0|5|ex03!19^23#5*162@ex02!19^12#5*162@ex01!19^3#5*162@ex05!19^40#5*162@ex04!19^29#5*162@
-gae|2|gaesae!21^21#1*179@Gaesae!21^15#7*177@
+gae|2|gaesae!21^26#1*179@Gaesae!21^19#7*177@
 gug|1|gugudan!19^49#5*162@
 hum|2|Human!11^11#7*97@hum!11^19#1*99@
 jin|1|JindoDog!21^1#7*177@
@@ -76,18 +76,18 @@ mul|2|multiple!9^6#5*82@mul!9^13#1*83@
 ran|1|rand!17^3#1*147@
 res|2|result!15^4#1*131@result!17^5#1*147@
 sco|1|score!23^1#1*195@
-sok|1|SokchoBird!21^9#7*177@
+sok|1|SokchoBird!21^10#7*177@
 sum|1|sum!9^11#1*83@
 -- END TREE
 -- START TREE 2
 9
-__i|5|__init__!25&21^3#9*178@__init__!26&21^10#9*178@__init__!27&21^16#9*178@__init__!28&11^2#9*98@__init__!29&11^12#9*98@
-eat|1|eat!28&11^5#9*98@
-fla|4|flag_cook!30&11^14#9*99@flag_cook!31&11^17#9*99@flag_Icanfly!32&21^11#9*179@flag_Icanfly!33&21^13#9*179@
+__i|5|__init__!25&11^2#9*98@__init__!26&11^12#9*98@__init__!27&21^3#9*178@__init__!28&21^12#9*178@__init__!29&21^21#9*178@
+eat|1|eat!25&11^5#9*98@
+fla|4|flag_cook!30&11^14#9*99@flag_cook!31&11^17#9*99@flag_Icanfly!32&21^13#9*179@flag_Icanfly!33&21^16#9*179@
 ful|2|fullness!34&11^3#9*99@fullness!35&11^9#9*99@
-got|1|gotoSchool!29&11^16#9*98@
-man|1|manddang!28&11^8#9*98@
+got|1|gotoSchool!26&11^16#9*98@
+man|1|manddang!25&11^8#9*98@
 pow|1|power_bark!36&21^4#9*179@
-pra|1|practice!26&21^12#9*178@
-tra|1|tranning!25&21^6#9*178@
+pra|1|practice!28&21^15#9*178@
+tra|1|tranning!27&21^6#9*178@
 -- END TREE
