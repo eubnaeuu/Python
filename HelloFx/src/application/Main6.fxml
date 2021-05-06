@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="272.0" prefWidth="428.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField id="tf1" layoutX="14.0" layoutY="39.0" prefHeight="23.0" prefWidth="63.0" />
+      <TextField id="tf2" layoutX="145.0" layoutY="41.0" prefHeight="23.0" prefWidth="63.0" />
+      <TextField id="tfresult" layoutX="32.0" layoutY="93.0" prefHeight="151.0" prefWidth="338.0" />
+      <Button id="btn" layoutX="239.0" layoutY="39.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="129.0" text="까지 짝수합은" />
+      <Label layoutX="95.0" layoutY="45.0" text="에서" />
+   </children>
+</AnchorPane>
