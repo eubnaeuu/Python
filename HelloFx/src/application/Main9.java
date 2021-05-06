@@ -48,7 +48,6 @@ public class Main9 extends Application {
 					String str = tf.getText();
 					alert.setContentText(str);
 					alert.show();
-					
 				}
 			});
 			// 기본 작성 형태
