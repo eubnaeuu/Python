@@ -5,14 +5,12 @@ import java.io.IOException;
 import javafx.application.Application;
 import javafx.event.Event;
 import javafx.event.EventHandler;
-import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
-import javafx.scene.input.Event;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
@@ -66,6 +64,7 @@ public class Main9 extends Application {
 			// 람다식 작성 형태 
 			// 함수 인터페이스의 경우에는 호출 메서드가 하나 밖에 없기 때문에 
 			// 그 메서드가 호출될 때 자동으로 판단하게 됨
+			
 			btn0.setOnMouseClicked((Event event) -> {
 				myclick("0");
 			});
