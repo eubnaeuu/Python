@@ -4,6 +4,8 @@ import os
 import sys
 import urllib.request
 from bs4 import BeautifulSoup
+import json
+from urllib.request import urlopen
 client_id = "t6LiD84QhVfZT1L1rFXg"
 client_secret = "LH_y_XvemI"
 encText = urllib.parse.quote("치킨")
@@ -15,41 +17,30 @@ request.add_header("X-Naver-Client-Secret",client_secret)
 response = urllib.request.urlopen(request)
 rescode = response.getcode()
 
+responsetmp = urlopen("https://openapi.naver.com/v1/search/blog.json?query=" + encText).read().decode('utf-8')
 requestjson = urllib.request.Request(urljson)
 requestjson.add_header("X-Naver-Client-Id",client_id)
 requestjson.add_header("X-Naver-Client-Secret",client_secret)
 responsejson = urllib.request.urlopen(requestjson)
 rescodejson = responsejson.getcode()
 
-if(rescode==200):
-    response_body = response.read()
-    # print(response_body.decode('utf-8'))
-    xmlsoup = BeautifulSoup(response_body,'html.parser')
-    # print(xmlsoup)
-    items = xmlsoup.select("item")
-        
-    for idx, item in enumerate(items):
-        # print("[",idx,"]")
-        # print("제목 : ",item.title.text)
-        # print()
-        # print("내용 : ",item.description.getText())
-        # print()
-        # print()
-        pass
-else:
-    print("Error Code:" + rescode)
+# if(rescode==200):
+#     response_body = response.read()
+#     # print(response_body.decode('utf-8'))
+#     xmlsoup = BeautifulSoup(response_body,'html.parser')
+#     # print(xmlsoup)
+#     items = xmlsoup.select("item")
+#
+#     for idx, item in enumerate(items):
+#         print("[",idx,"]")
+#         print("제목 : ",item.titme.text)
+#         print()
+#         print("내용 : ",item.description.getText())
+#         print()
+#         print()
+#         pass
+# else:
+#     print("Error Code:" + rescode)
     
-    
-if(rescodejson==200):
-    response_bodyjson = rescodejson.read()
-    jsonsoup = BeautifulSoup(response_bodyjson,'html.parser')
-    itemsjson = jsonsoup.select("item")
-    for idx, item in enumerate(itemsjson):
-        print("[",idx,"]")
-        print("제목 : ",item.title.text)
-        print()
-        print("내용 : ",item.description.getText())
-        print()
-        print()
-else:
-    print("Error Code:" + rescode)
+response_bodyjson = json.load(responsetmp)
+print(response_bodyjson.get("title"))
