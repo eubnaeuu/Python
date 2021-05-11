@@ -42,10 +42,10 @@ if(rescode==200):
     listName = [];
     listCode = [];
     listPrice = [];
+    # print(itemsPrice)
     # for idx, item in enumerate(itemsTotal):
     #     s_tmp = item
     #     print(item)
-    #
     
     for idx, item in enumerate(itemsTitle):
         s_name = item.get_text()
@@ -72,7 +72,7 @@ if(rescode==200):
         a_name =  listName[i]
         a_code =  listCode[i]
         a_price =  listPrice[i]
-        while(listPrice[i].find(',') != -1):
+        while((listPrice[i].find(',')) != -1):
             idx = listPrice[i].find(',')
             a_price = int(a_price[0:idx]+a_price[idx+1:])
             print(a_price)
