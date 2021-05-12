@@ -29,6 +29,7 @@ def insertChicken(tuts):
 
 # encText = urllib.parse.quote("치킨")
 url = "https://vip.mk.co.kr/newSt/rate/item_all.php"
+
 request = urllib.request.Request(url)
 response = urllib.request.urlopen(request)
 rescode = response.getcode()
@@ -39,14 +40,10 @@ if(rescode==200):
     soup = BeautifulSoup(response_body,'html.parser')
     itemsTitle = soup.select("td.st2 > a")
     itemsPrice = soup.select("td.st2 + td")
-    # tuts = []
+    
     listName = [];
     listCode = [];
     listPrice = [];
-    # print(itemsPrice)
-    # for idx, item in enumerate(itemsTotal):
-    #     s_tmp = item
-    #     print(item)
     
     for i, item in enumerate(itemsTitle):
         s_name = item.get_text()
@@ -78,8 +75,8 @@ if(rescode==200):
         
     print(listans)
     
-    cnt = insertChicken(listans)
-    print(cnt)
+    # cnt = insertChicken(listans)
+    # print(cnt)
     
 else:
     print("Error Code:" + rescode)

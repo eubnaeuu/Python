@@ -12,7 +12,7 @@ conn = pymysql.connect(
 curs = conn.cursor(pymysql.cursors.DictCursor) #컬럼명O
 curs = conn.cursor() # 컬럼명 X
 
-sql = "SELECT col01, col02, col03 FROM hello;"
+sql = "SELECT * FROM stock WHERE s_code='삼성전자' ORDER BY crawl_date;"
 curs.execute(sql)
 
 # result = curs.fetchone():단일행
@@ -20,4 +20,4 @@ curs.execute(sql)
 result = curs.fetchall() # 모든행 
 
 for row in result:
-    print(row[0])
+    print(row[2])

@@ -40,5 +40,11 @@ day06.myinsert|D:\workspace_python\HELLOPYTHON\day06\myinsert.py
 day06.myselect|D:\workspace_python\HELLOPYTHON\day06\myselect.py
 day06.myupdate|D:\workspace_python\HELLOPYTHON\day06\myupdate.py
 day07.__init__|D:\workspace_python\HELLOPYTHON\day07|^
+day07.insertStock|D:\workspace_python\HELLOPYTHON\day07\insertStock.py
+day07.listarry|D:\workspace_python\HELLOPYTHON\day07\listarry.py
 day07.mycrawl04&crawlingToDB|D:\workspace_python\HELLOPYTHON\day07\mycrawl04&crawlingToDB.py
-day07.tmp|D:\workspace_python\HELLOPYTHON\day07\tmp.py
+day07.mycrawl04&crawlingToDB_TS|D:\workspace_python\HELLOPYTHON\day07\mycrawl04&crawlingToDB_TS.py
+day07.mygraph|D:\workspace_python\HELLOPYTHON\day07\mygraph.py
+day07.mygraph_samsung|D:\workspace_python\HELLOPYTHON\day07\mygraph_samsung.py
+day07.mynumpy|D:\workspace_python\HELLOPYTHON\day07\mynumpy.py
+day07.mysleep|D:\workspace_python\HELLOPYTHON\day07\mysleep.py
