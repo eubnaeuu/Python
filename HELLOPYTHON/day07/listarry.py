@@ -13,4 +13,6 @@ print(list1)
 print(list2) 
 print(list3)
     
-
+arr = []
+if len(arr)==0:
+    print("nonㄷㅜe?")
