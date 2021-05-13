@@ -45,8 +45,12 @@ day07.listarry|D:\workspace_python\HELLOPYTHON\day07\listarry.py
 day07.mycrawl04&crawlingToDB|D:\workspace_python\HELLOPYTHON\day07\mycrawl04&crawlingToDB.py
 day07.mycrawl04&crawlingToDB_TS|D:\workspace_python\HELLOPYTHON\day07\mycrawl04&crawlingToDB_TS.py
 day07.mygraph|D:\workspace_python\HELLOPYTHON\day07\mygraph.py
-day07.mygraph_samsung|D:\workspace_python\HELLOPYTHON\day07\mygraph_samsung.py
-day07.mygraph_samsung_per|D:\workspace_python\HELLOPYTHON\day07\mygraph_samsung_per.py
-day07.mygraph_samsung_per2|D:\workspace_python\HELLOPYTHON\day07\mygraph_samsung_per2.py
+day07.mygraph_stock0_samsung|D:\workspace_python\HELLOPYTHON\day07\mygraph_stock0_samsung.py
+day07.mygraph_stock1_per|D:\workspace_python\HELLOPYTHON\day07\mygraph_stock1_per.py
+day07.mygraph_stock1_per_TS|D:\workspace_python\HELLOPYTHON\day07\mygraph_stock1_per_TS.py
+day07.mygraph_stock2_per_999|D:\workspace_python\HELLOPYTHON\day07\mygraph_stock2_per_999.py
 day07.mynumpy|D:\workspace_python\HELLOPYTHON\day07\mynumpy.py
 day07.mysleep|D:\workspace_python\HELLOPYTHON\day07\mysleep.py
+day08.__init__|D:\workspace_python\HELLOPYTHON\day08|^
+day08.myomok01|D:\workspace_python\HELLOPYTHON\day08\myomok01.py
+day08.myqt01_badookdol|D:\workspace_python\HELLOPYTHON\day08\myqt01_badookdol.py
