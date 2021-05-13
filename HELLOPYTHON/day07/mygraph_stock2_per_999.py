@@ -29,57 +29,66 @@ def getPrices():
 
     curs = conn.cursor()
 
-    sql = "SELECT * FROM stock_sync_0121 ORDER BY in_time limit 3;"
+    sql = "SELECT * FROM stock_sync_0121 ORDER BY in_time;"
     curs.execute(sql)
-
     result = curs.fetchall()
 
+# idx = 행수만큼 8000
     arr = []
-    for idx, row in enumerate(result):
-        arr.append(row)
-    return np.array(arr)   
+    for idx, item_o in enumerate(result):
+        tmp = []
+        for i, item_i in enumerate(item_o): # 필드크기만큼 900
+            if i < (len(item_o)-1):
+                tmp.append(int(item_i))
+            else:
+                break
+        arr.append(tmp)
+        
+    return arr
+
+
 
 arrCode = getCodes()
-arrPrice = getPrices()
+arrPriceTmp = np.array(getPrices())
 
-# print(arrPrice[0][0])
-# print(arrPrice[1][0])
-# print(arrPrice[2][0])
+cntCode = len(arrCode)
+cntRow = len(arrPriceTmp)
+
+print(" 종목 개수 : ",cntCode)
+print("행 개수 : ",cntRow)
+
+firstPrice = arrPriceTmp[0]
+
+# 파산 종목 초기값 -1로 통일
+for i, item in enumerate(firstPrice):
+    if item == 0:
+        firstPrice[i] = -1;
+        
+# toper 만들기
+arrPrice = []
+for idx, item in enumerate(arrPriceTmp):
+    arrPrice.append((item/firstPrice)*100)
+print(len(arrPrice))
+print(len(arrPrice[0]))
 
 arrz = []
-
-for idx, item in enumerate(arrCode):
+for idx in range(cntCode):
     tmp = []
-    for i in range(3):
+    for i in range(cntRow):
         tmp.append(arrPrice[i][idx])
     arrz.append(tmp)
-    
-print(arrz)
-# arrz = []
-# arr_name = getNames()
-# for item in arr_name:
-#     arrz.append(getPrices(item))
-#
-# arr_per_z = []
-# tmp = []
-# for i in range(len(arr_name)):
-#     if arrz[i][0]==0:
-#         continue
-#     else:
-#         tmp = (arrz[i]/arrz[i][0])*100
-#     arr_per_z.append(tmp)
-#
-#
-# fig = plt.figure()
-# ax = plt.axes(projection='3d')
-#
-# y = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-# x = np.array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
-# for idx, item in enumerate(arr_per_z):
-#     ax.plot3D(x+idx,y,item)
-#
-# ax.set_title('3D line plot')
-# plt.show()
+
+fig = plt.figure()
+ax = plt.axes(projection='3d')
+
+x = np.zeros(3952)
+y = np.arange(0, 3952)
+print(x,len(x))
+print(y,len(y))
+for idx, item in enumerate(arrz):
+    ax.plot3D(x+idx,y,np.array(item))
+ax.set_title('3D line plot')
+plt.show()
 
 
 

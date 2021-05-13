@@ -14,7 +14,7 @@ day01.Hello|1619746301953455300|D:\workspace_python\HELLOPYTHON\day01\Hello.py
 day03.myoop02|1620122164373353400|D:\workspace_python\HELLOPYTHON\day03\myoop02.py
 day07.mycrawl04&crawlingToDB_TS|1620781697620361100|D:\workspace_python\HELLOPYTHON\day07\mycrawl04&crawlingToDB_TS.py
 day04.myqt01_loadFile|1620352318292615200|D:\workspace_python\HELLOPYTHON\day04\myqt01_loadFile.py
-day07.mynumpy|1620784565885225500|D:\workspace_python\HELLOPYTHON\day07\mynumpy.py
+day07.mynumpy|1620901798515131900|D:\workspace_python\HELLOPYTHON\day07\mynumpy.py
 day05.myinsert|1620702808493555900|D:\workspace_python\HELLOPYTHON\day05\myinsert.py
 day05.mycrawl01|1620613646918131600|D:\workspace_python\HELLOPYTHON\day05\mycrawl01.py
 day04.myqt03_|1620354829511923900|D:\workspace_python\HELLOPYTHON\day04\myqt03_.py
@@ -43,9 +43,9 @@ day05.myenum|1620612751256083500|D:\workspace_python\HELLOPYTHON\day05\myenum.py
 day02.Braces_If|1620002584548952300|D:\workspace_python\HELLOPYTHON\day02\Braces_If.py
 day03.mydef_multireturn|1620086957521968700|D:\workspace_python\HELLOPYTHON\day03\mydef_multireturn.py
 day06.myinsert|1620699791129554500|D:\workspace_python\HELLOPYTHON\day06\myinsert.py
-day08.myomok01|1620877873804440000|D:\workspace_python\HELLOPYTHON\day08\myomok01.py
+day08.myomok01|1620904254397974000|D:\workspace_python\HELLOPYTHON\day08\myomok01.py
 day03.mydef_basic|1620013779870213600|D:\workspace_python\HELLOPYTHON\day03\mydef_basic.py
-day07.mygraph_stock2_per_999|1620891353477719100|D:\workspace_python\HELLOPYTHON\day07\mygraph_stock2_per_999.py
+day07.mygraph_stock2_per_999|1620903250658849800|D:\workspace_python\HELLOPYTHON\day07\mygraph_stock2_per_999.py
 day07.insertStock|1620779618740128400|D:\workspace_python\HELLOPYTHON\day07\insertStock.py
 day07.mygraph|1620785443275230000|D:\workspace_python\HELLOPYTHON\day07\mygraph.py
 -- END DISKCACHE
@@ -157,7 +157,7 @@ day07.mygraph|1620785443275230000|D:\workspace_python\HELLOPYTHON\day07\mygraph.
 11=D:\workspace_python\HELLOPYTHON\day03\mydef_basic.py
 -- END DICTIONARY
 -- START TREE 1
-80
+83
 a|3|a!1^1#1*19@a!3^1#1*35@a!5^1#1*51@
 a_c|1|a_code!7^66#9*67@
 a_n|1|a_name!7^65#9*67@
@@ -165,14 +165,14 @@ a_p|1|a_price!7^67#9*67@
 a_t|0|
 add|2|addmin!9^1#5*82@add!11^2#5*98@
 ani|1|Animal!13^1#7*113@
-app|12|app!15^16#2*131@app!17^33#4*147@app!19^24#4*163@app!21^22#4*179@app!23^38#4*195@app!25^25#4*211@app!27^66#4*227@app!29^21#4*243@app!31^58#4*259@app!33^22#4*275@app!35^19#4*291@app!37^25#4*307@
-arr|13|arr!39^6#1*323@arrCode!41^42#1*339@arr_n!39^7#1*323@arrc!43^7#1*355@arrz!41^49#1*339@arr!45^1#1*371@arr_per_z!47^45#1*387@arr_name!47^41#1*387@arrb!43^6#1*355@arrz!47^40#1*387@arra!43^1#1*355@arrPrice!41^43#1*339@arr!49^16#1*403@
-ax|4|ax!47^56#1*387@ax!51^47#1*419@ax!53^6#1*435@ax!55^47#1*451@
+app|12|app!15^16#2*131@app!17^33#4*147@app!19^24#4*163@app!21^22#4*179@app!23^38#4*195@app!25^25#4*211@app!27^81#4*227@app!29^21#4*243@app!31^58#4*259@app!33^22#4*275@app!35^19#4*291@app!37^25#4*307@
+arr|16|arr!39^6#1*323@arrCode!41^51#1*339@arr_n!39^7#1*323@arrc!43^7#1*355@arrz!41^74#1*339@arr!45^1#1*371@arr_per_z!47^45#1*387@arr_name!47^41#1*387@arrb!43^6#1*355@arrz!47^40#1*387@arra!43^1#1*355@arrPrice!41^68#1*339@arrPriceTmp!41^52#1*339@arr2!39^24#1*323@arr!49^16#1*403@arr1!39^23#1*323@
+ax|5|ax!41^82#1*339@ax!47^56#1*387@ax!51^47#1*419@ax!53^6#1*435@ax!55^47#1*451@
 b|3|b!3^2#1*35@b!1^2#1*19@b!5^2#1*51@
 blo|2|bloggername!57^46#9*467@bloggerlink!57^47#9*467@
 c|2|c!5^3#1*51@c!3^3#1*35@
 cli|4|client_id!59^9#1*483@client_secret!57^26#1*467@client_secret!59^10#1*483@client_id!57^25#1*467@
-cnt|6|cnt!61^14#1*499@cnt!63^49#9*515@cnt!65^20#1*531@cnt!67^18#5*547@cnt!57^50#5*467@cnt!69^13#1*563@
+cnt|8|cnt!61^14#1*499@cnt!63^49#9*515@cnt!65^20#1*531@cnt!67^18#5*547@cnt!57^50#5*467@cntCode!41^54#1*339@cntRow!41^55#1*339@cnt!69^13#1*563@
 cod|0|
 com|4|comnum!71^5#1*579@comans!71^9#5*579@com!73^4#1*595@com!71^2#1*579@
 con|4|conn!61^9#1*499@conn!65^9#1*531@conn!75^9#1*611@conn!69^9#1*563@
@@ -186,9 +186,9 @@ df|0|
 div|2|div!11^14#1*99@division!11^8#5*98@
 enc|2|encText!59^11#1*483@encText!57^27#1*467@
 ex0|5|ex03!77^23#5*626@ex02!77^12#5*626@ex01!77^3#5*626@ex05!77^40#5*626@ex04!77^29#5*626@
-fig|4|fig!53^5#1*435@fig!55^46#1*451@fig!51^46#1*419@fig!47^55#1*387@
+fig|5|fig!53^5#1*435@fig!55^46#1*451@fig!51^46#1*419@fig!47^55#1*387@fig!41^81#1*339@
 fin|1|findall!79^12#5*643@
-fir|0|
+fir|1|firstPrice!41^60#1*339@
 for|14|form_class!27^7#1*227@form_class!29^6#1*243@form_class!19^6#1*163@form_class!21^6#1*179@formattedDate!7^61#5*67@formattedDate!63^38#9*515@form_class!25^7#1*211@form_class!23^7#1*195@Form!15^5#7*129@form_class!17^7#1*147@form_class!31^7#1*259@form_class!35^6#1*291@form_class!37^6#1*307@form_class!33^7#1*275@
 gae|2|gaesae!81^26#1*659@Gaesae!81^19#7*657@
 get|8|getNames!51^7#5*418@getPrices!47^22#5*386@getPrices!55^22#5*450@getNames!55^6#5*450@getNames!47^6#5*386@getPrices!41^25#5*338@getPrices!51^23#5*418@getCodes!41^8#5*338@
@@ -206,9 +206,11 @@ lis|7|listans!7^58#5*67@list3!49^11#1*403@listCode!7^45#5*67@listName!7^44#5*67@
 min|4|mine!71^3#1*579@min!11^12#1*99@min!11^4#5*98@mine!73^2#1*595@
 mul|2|multiple!11^6#5*98@mul!11^13#1*99@
 mys|0|
-myw|22|myWindow!29^22#4*243@myWindow!17^34#4*147@myWindow!35^20#4*291@MyWindow!29^7#7*241@myWindow!37^26#4*307@myWindow!27^67#4*227@MyWindow!33^8#7*273@myWindow!21^23#4*179@myWindow!19^25#4*163@MyWindow!27^8#7*225@MyWindow!23^8#7*193@MyWindow!31^8#7*257@MyWindow!21^7#7*177@MyWindow!25^8#7*209@myWindow!33^23#4*275@MyWindow!17^9#7*145@MyWindow!35^7#7*289@MyWindow!37^7#7*305@myWindow!31^59#4*259@myWindow!25^26#4*211@MyWindow!19^7#7*161@myWindow!23^39#4*195@
+myw|22|myWindow!29^22#4*243@myWindow!17^34#4*147@myWindow!35^20#4*291@MyWindow!29^7#7*241@myWindow!37^26#4*307@myWindow!27^82#4*227@MyWindow!33^8#7*273@myWindow!21^23#4*179@myWindow!19^25#4*163@MyWindow!27^8#7*225@MyWindow!23^8#7*193@MyWindow!31^8#7*257@MyWindow!21^7#7*177@MyWindow!25^8#7*209@myWindow!33^23#4*275@MyWindow!17^9#7*145@MyWindow!35^7#7*289@MyWindow!37^7#7*305@myWindow!31^59#4*259@myWindow!25^26#4*211@MyWindow!19^7#7*161@myWindow!23^39#4*195@
 nam|1|namelist!55^51#1*451@
 now|2|now!63^37#9*515@now!7^60#5*67@
+np1|1|np1!39^25#1*323@
+np2|1|np2!39^26#1*323@
 np_|2|np_z2!51^59#1*419@np_z1!51^58#1*419@
 pos|1|postdate!57^48#9*467@
 pri|0|
@@ -220,6 +222,7 @@ s_n|2|s_name!63^43#13*515@s_name!7^49#9*67@
 s_p|4|s_price2!51^51#1*419@s_price1!51^50#1*419@s_price!7^55#9*67@s_price!63^45#13*515@
 s_t|0|
 sco|1|score!85^1#1*691@
+sec|0|
 sel|2|selects!79^14#5*643@selectone!79^13#5*643@
 sok|1|SokchoBird!81^10#7*657@
 sou|3|soup!63^33#9*515@soup!79^11#5*643@soup!7^40#5*67@
@@ -228,22 +231,22 @@ sto|1|stockList!63^40#9*515@
 str|0|
 sum|1|sum!11^11#1*99@
 tit|1|title!57^43#9*467@
-tmp|1|tmp!47^46#1*387@
+tmp|2|tmp!41^76#5*339@tmp!47^46#1*387@
 top|0|
 tut|4|tut!87^1#1*707@tuts!61^25#1*499@tuts!57^41#5*467@tuts!67^12#5*547@
 url|6|url!79^4#1*643@urljson!59^12#1*483@urlxml!59^13#1*483@urlxml!57^28#1*467@url!7^31#1*67@url!63^24#5*515@
 w|1|w!15^17#2*131@
-x|4|x!55^55#9*451@x!51^61#1*419@x!53^10#1*435@x!47^59#1*387@
+x|5|x!55^55#9*451@x!41^84#1*339@x!51^61#1*419@x!53^10#1*435@x!47^59#1*387@
 xml|1|xmlsoup!57^38#5*467@
-y|4|y!55^49#1*451@y!53^9#1*435@y!47^58#1*387@y!51^60#1*419@
+y|5|y!55^49#1*451@y!53^9#1*435@y!47^58#1*387@y!51^60#1*419@y!41^85#1*339@
 z|2|z!53^8#1*435@z!55^54#9*451@
 ¤¼|0|
 -- END TREE
 -- START TREE 2
-21
+23
 __i|17|__init__!89&31^10#9*258@__init__!89&35^9#9*290@__init__!89&25^10#9*210@__init__!89&23^10#9*194@__init__!90&15^6#6*130@__init__!89&21^9#9*178@__init__!89&19^9#9*162@__init__!89&29^9#9*242@__init__!89&17^11#9*146@__init__!89&37^9#9*306@__init__!89&33^10#9*274@__init__!91&13^2#9*114@__init__!92&13^12#9*114@__init__!89&27^10#9*226@__init__!93&81^3#9*658@__init__!94&81^12#9*658@__init__!95&81^21#9*658@
-arr|1|arr2d!96&27^26#9*227@
-btn|13|btnClick!89&19^15#9*162@btnClick!89&33^16#9*274@btnClick!89&31^16#9*258@btnClick!89&25^16#9*210@btnClick!89&29^15#9*242@btnClick!89&17^17#9*146@btnClick!89&35^15#9*290@btnClick!89&37^15#9*306@btnCallClick!89&23^32#9*194@btnClick!90&15^12#6*130@btnClick!89&21^15#9*178@btnClick!89&23^27#9*194@btnClick!89&27^53#9*226@
+arr|1|arr2d!96&27^27#9*227@
+btn|13|btnClick!89&19^15#9*162@btnClick!89&33^16#9*274@btnClick!89&31^16#9*258@btnClick!89&25^16#9*210@btnClick!89&29^15#9*242@btnClick!89&17^17#9*146@btnClick!89&35^15#9*290@btnClick!89&37^15#9*306@btnCallClick!89&23^32#9*194@btnClick!90&15^12#6*130@btnClick!89&21^15#9*178@btnClick!89&23^27#9*194@btnClick!89&27^61#9*226@
 cnt|0|
 eat|1|eat!91&13^5#9*114@
 fla|4|flag_cook!97&13^14#9*115@flag_cook!98&13^17#9*115@flag_Icanfly!99&81^13#9*659@flag_Icanfly!100&81^16#9*659@
@@ -253,8 +256,10 @@ idx|1|idx!96&33^12#9*275@
 ini|0|
 lbl|0|
 man|1|manddang!91&13^8#9*114@
-myr|1|myrender!89&27^43#9*226@
-pbt|1|pbtn2d!96&27^27#9*227@
+msg|1|msgBox!89&27^54#9*226@
+myr|1|myrender!89&27^44#9*226@
+ord|1|order!96&27^14#9*227@
+pbt|1|pbtn2d!96&27^28#9*227@
 pla|1|player!96&27^13#9*227@
 pow|1|power_bark!103&81^4#9*659@
 pra|1|practice!94&81^15#9*658@

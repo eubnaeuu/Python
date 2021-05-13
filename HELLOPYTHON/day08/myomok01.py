@@ -2,7 +2,7 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton
 from PyQt5 import uic, QtGui
-from PyQt5.Qt import QSize
+from PyQt5.Qt import QSize, QMessageBox
 
 form_class = uic.loadUiType("myomok01.ui")[0]
 class MyWindow(QMainWindow, form_class):
@@ -10,7 +10,8 @@ class MyWindow(QMainWindow, form_class):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
-        self.player = [1,2]
+        self.player = ['A','B']
+        self.order = 1
         self.arr2d = [
             [0,0,0,0,0,0,0,0,0,0],
             [0,0,0,0,0,0,0,0,0,0],
@@ -49,18 +50,33 @@ class MyWindow(QMainWindow, form_class):
                     self.pbtn2d[i][j].setIcon(QtGui.QIcon('1.png'))
                 else:
                     self.pbtn2d[i][j].setIcon(QtGui.QIcon('2.png'))
+
+    def msgBox(self):        
+        msgBox = QMessageBox()
+        msgBox.setWindowTitle("너경고") # 메세지창의 상단 제목
+        msgBox.setText("이미 둔 자리") # 메세지 내용
+        msgBox.setStandardButtons(QMessageBox.Yes)
+        msgBox.exec_()
+        msgBox.show()
             
     def btnClick(self):
         # print(self.sender()) # 해당 객체 (target, source, sender)
+        
         gps = []
         gps = self.sender().toolTip().split(",")
         x = int(gps[0])
         y = int(gps[1])
         if self.arr2d[x][y] != 0:
-            print("이미")
+            self.msgBox()
         else:
-            self.arr2d[x][y] = 1
+            self.arr2d[x][y] = self.order
+            if self.order == 1:
+                self.order += 1
+            else: 
+                self.order -= 1
         self.myrender()
+        
+        
 
 if __name__ == '__main__':
    app = QApplication(sys.argv)

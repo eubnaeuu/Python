@@ -18,3 +18,10 @@ print(arr_n) # [ 5 10 15 20 25]
 1. numpy 속도 빠름
 2. arr의 내부 연산 가능 -> java에서는 for문을 통해 구현해야하는 기능 
 """
+
+
+arr1 = [1,10]
+arr2 = [2,4]
+np1 = np.array(arr1)
+np2 = np.array(arr2)
+print("이거됨?",np1/np2)
