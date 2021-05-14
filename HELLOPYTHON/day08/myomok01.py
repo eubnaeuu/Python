@@ -17,7 +17,7 @@ class MyWindow(QMainWindow, form_class):
             [0,0,0,0,0,0,0,0,0,0],
             [0,0,0,0,0,0,0,0,0,0],
             [0,0,0,0,0,0,0,0,0,0],
-            [0,0,0,0,1,2,0,0,0,0],
+            [0,0,0,0,0,0,0,0,0,0],
             
             [0,0,0,0,0,0,0,0,0,0],
             [0,0,0,0,0,0,0,0,0,0],
@@ -53,8 +53,8 @@ class MyWindow(QMainWindow, form_class):
 
     def msgBox(self):        
         msgBox = QMessageBox()
-        msgBox.setWindowTitle("너경고") # 메세지창의 상단 제목
-        msgBox.setText("이미 둔 자리") # 메세지 내용
+        msgBox.setWindowTitle("경고창") # 메세지창의 상단 제목
+        msgBox.setText("돌이 이미 있습니다") # 메세지 내용
         msgBox.setStandardButtons(QMessageBox.Yes)
         msgBox.exec_()
         msgBox.show()
@@ -66,14 +66,17 @@ class MyWindow(QMainWindow, form_class):
         gps = self.sender().toolTip().split(",")
         x = int(gps[0])
         y = int(gps[1])
+        
         if self.arr2d[x][y] != 0:
             self.msgBox()
         else:
             self.arr2d[x][y] = self.order
+            
             if self.order == 1:
                 self.order += 1
             else: 
                 self.order -= 1
+                
         self.myrender()
         
         

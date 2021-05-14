@@ -9418,7 +9418,6 @@ numpy.compat.setup|D:\Anaconda3\lib\site-packages\numpy\compat\setup.py
 numpy.compat.tests.__init__|D:\Anaconda3\lib\site-packages\numpy\compat\tests\__init__.py
 numpy.compat.tests.test_compat|D:\Anaconda3\lib\site-packages\numpy\compat\tests\test_compat.py
 numpy.conftest|D:\Anaconda3\lib\site-packages\numpy\conftest.py
-numpy.core
 numpy.core.__init__|D:\Anaconda3\lib\site-packages\numpy\core\__init__.py
 numpy.core._add_newdocs|D:\Anaconda3\lib\site-packages\numpy\core\_add_newdocs.py
 numpy.core._asarray|D:\Anaconda3\lib\site-packages\numpy\core\_asarray.py
@@ -9636,7 +9635,6 @@ numpy.fft.setup|D:\Anaconda3\lib\site-packages\numpy\fft\setup.py
 numpy.fft.tests.__init__|D:\Anaconda3\lib\site-packages\numpy\fft\tests\__init__.py
 numpy.fft.tests.test_helper|D:\Anaconda3\lib\site-packages\numpy\fft\tests\test_helper.py
 numpy.fft.tests.test_pocketfft|D:\Anaconda3\lib\site-packages\numpy\fft\tests\test_pocketfft.py
-numpy.lib
 numpy.lib.__init__|D:\Anaconda3\lib\site-packages\numpy\lib\__init__.py
 numpy.lib._datasource|D:\Anaconda3\lib\site-packages\numpy\lib\_datasource.py
 numpy.lib._iotools|D:\Anaconda3\lib\site-packages\numpy\lib\_iotools.py
@@ -9715,7 +9713,6 @@ numpy.ma.tests.test_subclassing|D:\Anaconda3\lib\site-packages\numpy\ma\tests\te
 numpy.ma.testutils|D:\Anaconda3\lib\site-packages\numpy\ma\testutils.py
 numpy.ma.timer_comparison|D:\Anaconda3\lib\site-packages\numpy\ma\timer_comparison.py
 numpy.matlib|D:\Anaconda3\lib\site-packages\numpy\matlib.py
-numpy.matrixlib
 numpy.matrixlib.__init__|D:\Anaconda3\lib\site-packages\numpy\matrixlib\__init__.py
 numpy.matrixlib.defmatrix|D:\Anaconda3\lib\site-packages\numpy\matrixlib\defmatrix.py
 numpy.matrixlib.setup|D:\Anaconda3\lib\site-packages\numpy\matrixlib\setup.py
