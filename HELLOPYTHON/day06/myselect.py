@@ -21,3 +21,5 @@ result = curs.fetchall() # 모든행
 
 for row in result:
     print(row[2])
+
+conn.close()
