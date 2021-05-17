@@ -7,11 +7,11 @@ app = Flask(__name__, static_url_path="") # static 경로 설정
 def index():
     return "Hello World"
 
-@app.route('/ajax', methods=['POST'])
-def home():
+@app.route('/ajax', methods = ['POST'])
+def ajax():
     data = request.get_json()
     print(data)
-    return jsonify(result = "success", result2= data)
 
+    return jsonify(result = "success", result2= data)
 if __name__ == '__main__':
     app.run(debug=True)

@@ -5,7 +5,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<!-- 	<a href="javascript:fn_ajax()">ajax링크</a> -->
+	<a href="javascript:fn_ajax()">ajax링크</a>
 	hello
 	
 	
@@ -21,10 +21,10 @@
         			}
 		$.ajax({
 			type: 'POST',
-            url: '{{url_for("ajax")}}',
+            url: 'ajax', // {{ url_for("ajax") }} 이것도 가능하나 html파일부터 시작하면 안됨(requset에서 root를 받아오는 거기에(?)) 
             data: JSON.stringify(postdata),
             dataType : 'JSON',
-            contentType: "application/json",
+            contentType: 'application/json',
             success: function(data){
                 console.log(data)
             },

@@ -18,10 +18,12 @@ class DaoEmp :
         sql = "SELECT e_id, e_name, birth FROM emp;"
         curs.execute(sql)
 
-        result = curs.fetchall() # 모든행 
+        result = curs.fetchall()
 
         for row in result:
             ret.append({"e_id":row[0],"e_name":row[1],"birth":row[2]})
+            
+        return ret
             
     def myinsert(self, e_id, e_name, birth):
         curs = self.conn.cursor() 
@@ -63,11 +65,10 @@ class DaoEmp :
         self.conn.close()
         
 if __name__== '__main__':
-    
     de = DaoEmp()
     
     list = de.myselect()
-    # cnt = de.myinsert('3','3','3')
+    # cnt = de.myinsert('4','3','3')
     # cnt = de.myupdate('3','0','0')
     # cnt = de.mydelete('3')
     
