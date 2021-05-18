@@ -1,6 +1,6 @@
 import pymysql
 
-class Daoexam :
+class DaoEmp :
     
     def __init__(self):
         self.conn = pymysql.connect(
@@ -11,57 +11,53 @@ class Daoexam :
         charset='utf8'
         )
         
-        
     def myselect(self):
         ret = []
         curs = self.conn.cursor() 
 
-        sql = "SELECT e_id ,kor ,eng ,math FROM exam;"
+        sql = "SELECT e_id, e_name, birth FROM emp;"
         curs.execute(sql)
 
-        result = curs.fetchall() # 모든행 
+        result = curs.fetchall()
 
         for row in result:
-            ret.append({"e_id":row[0],"kor":row[1],"eng":row[2],"math":row[3]})
+            ret.append({"e_id":row[0],"e_name":row[1],"birth":row[2]})
             
         return ret
             
-            
-    def myinsert(self, e_id ,kor ,eng ,math):
-        param = [e_id ,kor ,eng ,math]
-        curs = self.conn.cursor()
-        sql = "INSERT INTO exam(e_id ,kor ,eng ,math) VALUES(%s,%s,%s,%s);"
-        cnt = curs.execute(sql,param)
+    def myinsert(self, e_id, e_name, birth):
+        curs = self.conn.cursor() 
+
+        sql = "INSERT INTO EMP(e_id, e_name, birth) VALUES({},{},{});".format(e_id, e_name, birth)
+        cnt = curs.execute(sql)
 
         self.conn.commit()
         
         return cnt
     
-    def myupdate(self, e_id ,kor ,eng ,math):
-        curs = self.conn.cursor()
-        param = [kor ,eng ,math,e_id]
-        
-        sql = """
-                UPDATE exam
-                SET
-                kor=%s,
-                eng=%s,
-                math=%s
+    def myupdate(self, e_id, e_name, birth):
+        curs = self.conn.cursor() 
+# 파이썬 3.3(?) 3.5(?) 이상부터 됨
+        sql = f"""     
+                UPDATE EMP
+                SET 
+                e_name='{e_name}', 
+                birth='{birth}'
                 WHERE
-                e_id=%s 
+                e_id='{e_id}' 
             """
         
-        cnt = curs.execute(sql,param)
+        cnt = curs.execute(sql)
         self.conn.commit()
         return cnt
     
     
     def mydelete(self, e_id):
         curs = self.conn.cursor() 
-        param = e_id
-        sql = "DELETE FROM exam WHERE e_id = %s;"
+
+        sql = f"DELETE FROM EMP WHERE e_id = {e_id};"
         
-        cnt = curs.execute(sql,param)
+        cnt = curs.execute(sql)
         self.conn.commit()
         return cnt
     
@@ -69,14 +65,13 @@ class Daoexam :
         self.conn.close()
         
 if __name__== '__main__':
+    de = DaoEmp()
     
-    de = Daoexam()
+    list = de.myselect()
+    # cnt = de.myinsert('a6','3','3')
+    # cnt = de.myupdate('3','0','0')
+    # cnt = de.mydelete('3')
     
-    # cnt = de.myinsert('a003','50','43','99')
-    # list = de.myselect()
-    # cnt = de.myupdate('a002','42','52','12')
-    cnt = de.mydelete('a002')
-    
-    # print(list)
-    print(cnt)
+    print(list)
+    # print(cnt)
     

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<table border="1px solid">
+		<tr>
+			<td>
+				<table border="1px solid">
+					<thead>
+						<tr>
+							<td>ID</td>
+							<td>국어</td>
+							<td>영어</td>
+							<td>수학</td>
+						</tr>
+					</thead>
+					<tbody>
+						{% for exam in mylist %}
+						<tr>
+							<td>
+							<a href="javascript:fn_setTable('{{exam.e_id}}','{{exam.kor}}','{{exam.eng}}','{{exam.math}}')">{{exam.e_id }}</a>
+							</td>
+							<td>{{exam.kor }}</td>
+							<td>{{exam.eng }}</td>
+							<td>{{exam.math }}</td>
+						</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+			</td>
+			<td>
+				<table border="1px solid">
+					<tr>
+						<td>ID</td>
+						<td colspan="2"><input type="text" value="1" id="e_id"></td>
+					</tr>
+					<tr>
+						<td>국어</td>
+						<td colspan="2"><input type="text" value="1" id="kor"></td>
+					</tr>
+					<tr>
+						<td>영어</td>
+						<td colspan="2"><input type="text" value="1" id="eng"></td>
+					</tr>
+					<tr>
+						<td>수학</td>
+						<td colspan="2"><input type="text" value="1" id="math"></td>
+					</tr>
+					<tr>
+						<td><input type="button" value="추가" onclick="fn_add()"></td>
+						<td><input type="button" value="수정" onclick="fn_upd()"></td>
+						<td><input type="button" value="삭제" onclick="fn_del()"></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+	<script src="jquery-3.6.0.js"></script>
+	<script type="text/javascript">
+		function fn_setTable(e_id, kor, eng, math){
+			$("#e_id").val(e_id)
+			$("#kor").val(kor)
+			$("#eng").val(eng)
+			$("#math").val(math)
+		}
+	
+		function fn_add(){
+			
+			var id = $("#e_id").val()
+			var kor = $("#kor").val()
+			var eng = $("#eng").val()
+			var math = $("#math").val()
+			
+			param = {
+					"e_id" : id,
+					"kor" : kor,
+					"eng" : eng,
+					"math" : math
+					}
+			
+			$.ajax({
+				url : "add.ajax",
+				type : "POST",
+	            data: JSON.stringify(param),
+	            dataType : 'JSON',
+	            contentType: 'application/json',
+				success : function(data){
+					console.log(data)
+					if(data.msg == 'ok'){
+						alert("생성이 완료되었습니다");
+						location.reload();
+					}else{
+						alert("실행도중 문제가 발생했습니다");
+					}
+				},
+				error : function(xhr){
+					alert("통신실패!")
+					console.error(xhr)
+				}
+			})
+		}
+		
+		function fn_upd(){
+			var id = $("#e_id").val()
+			var kor = $("#kor").val()
+			var eng = $("#eng").val()
+			var math = $("#math").val()
+			
+			param = {
+					"e_id" : id,
+					"kor" : kor,
+					"eng" : eng,
+					"math" : math
+					}
+			$.ajax({
+				url : "upd.ajax",
+				type : "POST",
+	            data: JSON.stringify(param),
+	            dataType : 'JSON',
+	            contentType: 'application/json',
+	            success : function(data){
+					console.log(data)
+					if(data.msg == 'ok'){
+						alert("수정이 완료되었습니다");
+						location.reload();
+					}else{
+						alert("실행도중 문제가 발생했습니다");
+					}
+				},
+				error : function(xhr){
+					alert("통신실패!")
+					console.error(xhr)
+				}
+			})
+		}
+		
+		function fn_del(){
+			
+			var id = $("#e_id").val()
+			
+			param = {"e_id" : id}
+			
+			$.ajax({
+				url : "del.ajax",
+				type : "POST",
+	            data: JSON.stringify(param),
+	            dataType : 'JSON',
+	            contentType: 'application/json',
+	            success : function(data){
+					console.log(data)
+					if(data.msg == 'ok'){
+						alert("삭제가 완료되었습니다");
+						location.reload();
+					}else{
+						alert("실행도중 문제가 발생했습니다");
+					}
+				},
+				error : function(xhr){
+					alert("통신실패!")
+					console.error(xhr)
+				}
+			})
+			
+		}
+	</script>
+</body>
+</html>
