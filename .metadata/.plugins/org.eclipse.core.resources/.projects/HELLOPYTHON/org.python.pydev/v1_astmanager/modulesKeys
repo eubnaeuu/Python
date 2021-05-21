@@ -1,6 +1,4 @@
 MODULES_MANAGER_V3
-coolsms.__init__|D:\workspace_python\HELLOPYTHON\coolsms|^
-coolsms.coolsms|D:\workspace_python\HELLOPYTHON\coolsms\coolsms.py
 day01.Hello|D:\workspace_python\HELLOPYTHON\day01\Hello.py
 day01.__init__|D:\workspace_python\HELLOPYTHON\day01|^
 day02.And_Or|D:\workspace_python\HELLOPYTHON\day02\And_Or.py
@@ -79,3 +77,9 @@ day11.mydao_exam|D:\workspace_python\HELLOPYTHON\day11\mydao_exam.py
 day12.__init__|D:\workspace_python\HELLOPYTHON\day12|^
 day12.mycv|D:\workspace_python\HELLOPYTHON\day12\mycv.py
 day12.mycv01_TS|D:\workspace_python\HELLOPYTHON\day12\mycv01_TS.py
+day13.mycv02_crop|D:\workspace_python\HELLOPYTHON\day13\mycv02_crop.py
+day13.mycv02_save|D:\workspace_python\HELLOPYTHON\day13\mycv02_save.py
+day13.mycv02_tilt|D:\workspace_python\HELLOPYTHON\day13\mycv02_tilt.py
+day14.mycheck|D:\workspace_python\HELLOPYTHON\day14\mycheck.py
+day14.mymnist|D:\workspace_python\HELLOPYTHON\day14\mymnist.py
+day14.myomok20|D:\workspace_python\HELLOPYTHON\day14\myomok20.py
