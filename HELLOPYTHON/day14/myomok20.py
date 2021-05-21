@@ -242,7 +242,6 @@ class MyWindow(QMainWindow, form_class):
         if self.comj > self.length-1:
             self.comi += 1
             self.comj = 0
-        self.flag_wb = not self.flag_wb
          
     
     def btnClick(self):
@@ -262,12 +261,12 @@ class MyWindow(QMainWindow, form_class):
             self.arr2d[i][j] = 1
             stone = 1
             self.myrender()
-            self.check(i,j,stone)
+            self.check(i,j,1)
             
-            self.comj += 1
             self.Putcom(self.comi,self.comj)
             self.myrender()
-            self.check(self.comi,self.comj,stone)
+            self.check(self.comi,self.comj,2)
+            self.comj += 1
             
         
     def myreset(self):
