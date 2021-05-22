@@ -223,7 +223,6 @@ class MyWindow(QMainWindow, form_class):
         
         print("d1:",d1,"d2:",d2,"d3:",d3,"d4:",d4)
         if d1 == 5 or d2 == 5 or d3 == 5 or d4 == 5 :
-            print("요기 들어옴")
             self.flag_ing=False
             
             if self.flag_wb:

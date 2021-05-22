@@ -39,6 +39,7 @@ day11.mycrud_exam|1621309482994870900|D:\workspace_python\HELLOPYTHON\day11\mycr
 day02.For|1620006435584022700|D:\workspace_python\HELLOPYTHON\day02\For.py
 day02.Variable|1620002659782050700|D:\workspace_python\HELLOPYTHON\day02\Variable.py
 day11.mydao_emp|1621301810671277500|D:\workspace_python\HELLOPYTHON\day11\mydao_emp.py
+day11.mycrud_emp|1621301543525271400|D:\workspace_python\HELLOPYTHON\day11\mycrud_emp.py
 day02.For2|1620099059923302800|D:\workspace_python\HELLOPYTHON\day02\For2.py
 day04.myqt02_getset|1620353822907241300|D:\workspace_python\HELLOPYTHON\day04\myqt02_getset.py
 day02.OddEvenGame|1620013360733889800|D:\workspace_python\HELLOPYTHON\day02\OddEvenGame.py
@@ -60,7 +61,6 @@ day04.myqt1_tmp|1620352138937156200|D:\workspace_python\HELLOPYTHON\day04\myqt1_
 day02.myex|1620013254598814000|D:\workspace_python\HELLOPYTHON\day02\myex.py
 day10.mydao_emp|1621301926492573400|D:\workspace_python\HELLOPYTHON\day10\mydao_emp.py
 day07.mysleep|1620781395667017700|D:\workspace_python\HELLOPYTHON\day07\mysleep.py
-day11.mycrud|1621301543525271400|D:\workspace_python\HELLOPYTHON\day11\mycrud.py
 day12.mycv01_TS|1621341765266227300|D:\workspace_python\HELLOPYTHON\day12\mycv01_TS.py
 day13.mycv02_crop|1621557126001000000|D:\workspace_python\HELLOPYTHON\day13\mycv02_crop.py
 day10.myflask04_printHtml|1621216885753636500|D:\workspace_python\HELLOPYTHON\day10\myflask04_printHtml.py
@@ -72,7 +72,7 @@ day10.mydao_exam|1621296953452678400|D:\workspace_python\HELLOPYTHON\day10\mydao
 day03.mydef_basic|1620013779870213600|D:\workspace_python\HELLOPYTHON\day03\mydef_basic.py
 day07.mygraph_stock2_per_999|1620903250658849800|D:\workspace_python\HELLOPYTHON\day07\mygraph_stock2_per_999.py
 day13.mycv02_save|1621557639072776700|D:\workspace_python\HELLOPYTHON\day13\mycv02_save.py
-day14.myomok20|1621594637491498900|D:\workspace_python\HELLOPYTHON\day14\myomok20.py
+day14.myomok20|1621601052149740800|D:\workspace_python\HELLOPYTHON\day14\myomok20.py
 -- END DISKCACHE
 -- START DICTIONARY
 162
@@ -82,6 +82,7 @@ day14.myomok20|1621594637491498900|D:\workspace_python\HELLOPYTHON\day14\myomok2
 1=D:\workspace_python\HELLOPYTHON\day09\mytry.py
 109=D:\workspace_python\HELLOPYTHON\day13\mycv02_crop.py
 160=Animal.manddang
+17=D:\workspace_python\HELLOPYTHON\day11\mycrud_emp.py
 35=D:\workspace_python\HELLOPYTHON\day10\myflask02_get.py
 98=day11.mydao_exam
 129=D:\workspace_python\HELLOPYTHON\day07\insertStock.py
@@ -142,7 +143,6 @@ day14.myomok20|1621594637491498900|D:\workspace_python\HELLOPYTHON\day14\myomok2
 52=day04.myqt1_tmp
 61=D:\workspace_python\HELLOPYTHON\day10\mycrud.py
 43=D:\workspace_python\HELLOPYTHON\day04\myqt07.py
-16=day11.mycrud
 25=D:\workspace_python\HELLOPYTHON\day10\myflask04_printHtml.py
 29=D:\workspace_python\HELLOPYTHON\day09\myomok19.py
 93=D:\workspace_python\HELLOPYTHON\day05\myinsert.py
@@ -193,12 +193,12 @@ day14.myomok20|1621594637491498900|D:\workspace_python\HELLOPYTHON\day14\myomok2
 40=day08.myomok01
 116=day13.mycv02_tilt
 4=day02.And_Or
-15=D:\workspace_python\HELLOPYTHON\day11\mycrud.py
 113=D:\workspace_python\HELLOPYTHON\day11\mydao_emp.py
 141=Form
-18=day11.mycrud_exam
+16=day11.mycrud_exam
 70=day02.For
 8=day02.Variable
+18=day11.mycrud_emp
 42=day04.myqt02_getset
 106=day02.OddEvenGame
 144=JindoDog
@@ -209,7 +209,7 @@ day14.myomok20|1621594637491498900|D:\workspace_python\HELLOPYTHON\day14\myomok2
 105=D:\workspace_python\HELLOPYTHON\day02\OddEvenGame.py
 5=D:\workspace_python\HELLOPYTHON\day02\Braces_If.py
 136=day05.test
-17=D:\workspace_python\HELLOPYTHON\day11\mycrud_exam.py
+15=D:\workspace_python\HELLOPYTHON\day11\mycrud_exam.py
 74=day07.mygraph_stock1_per_TS
 96=day06.myupdate
 83=D:\workspace_python\HELLOPYTHON\day07\mygraph.py
@@ -246,11 +246,11 @@ a_c|1|a_code!9^66#9*83@
 a_n|1|a_name!9^65#9*83@
 a_p|1|a_price!9^67#9*83@
 add|2|addmin!11^1#5*98@add!13^2#5*114@
-aja|7|ajax_add!15^16#5*130@ajax_add!17^21#5*146@ajax_update!17^39#5*146@ajax_delete!15^51#5*130@ajax_update!15^33#5*130@ajax!19^11#5*162@ajax_delete!17^58#5*146@
+aja|7|ajax_add!15^21#5*130@ajax_update!15^39#5*130@ajax_delete!17^51#5*146@ajax!19^11#5*162@ajax_delete!15^58#5*130@ajax_update!17^33#5*146@ajax_add!17^16#5*146@
 ani|1|Animal!21^1#7*177@
 ans|0|
 api|2|api_secret!23^10#5*195@api_key!23^9#5*195@
-app|23|app!25^4#1*211@app!27^2#1*227@app!29^260#4*243@app!31^22#4*259@app!33^38#4*275@app!35^3#1*291@app!37^25#4*307@app!39^85#4*323@app!41^21#4*339@app!43^58#4*355@app!19^4#1*163@app!45^22#4*371@app!47^19#4*387@app!49^25#4*403@app!51^16#2*419@app!53^282#4*435@app!55^33#4*451@app!15^7#1*131@app!57^24#4*467@app!59^250#4*483@app!61^4#1*499@app!17^7#1*147@app!63^4#1*515@
+app|23|app!25^4#1*211@app!27^2#1*227@app!29^260#4*243@app!31^22#4*259@app!33^38#4*275@app!35^3#1*291@app!37^25#4*307@app!39^85#4*323@app!41^21#4*339@app!43^58#4*355@app!19^4#1*163@app!45^22#4*371@app!47^19#4*387@app!49^25#4*403@app!51^16#2*419@app!53^282#4*435@app!55^33#4*451@app!57^24#4*467@app!59^250#4*483@app!61^4#1*499@app!17^7#1*147@app!15^7#1*131@app!63^4#1*515@
 arr|17|arr!65^6#1*531@arrCode!67^51#1*547@arr_n!65^7#1*531@arrc!69^7#1*563@arrz!67^74#1*547@arr!71^1#1*579@arr_per_z!73^45#1*595@arr_name!73^41#1*595@arrb!69^6#1*563@arr!75^1#1*611@arrz!73^40#1*595@arra!69^1#1*563@arrPrice!67^68#1*547@arrPriceTmp!67^52#1*547@arr2!65^24#1*531@arr!77^16#1*627@arr1!65^23#1*531@
 ax|5|ax!67^82#1*547@ax!73^56#1*595@ax!79^47#1*643@ax!81^47#1*659@ax!83^6#1*675@
 b|3|b!3^2#1*35@b!5^2#1*51@b!7^2#1*67@
@@ -266,7 +266,7 @@ cro|1|cropped_img!109^8#1*883@
 cur|4|curs!89^12#1*723@curs!107^12#1*867@curs!95^11#1*771@curs!99^11#1*803@
 d|1|d!3^4#1*35@
 dao|4|DaoExam!97^3#7*785@DaoEmp!111^3#7*897@DaoEmp!113^3#7*913@Daoexam!101^3#7*817@
-de|6|de!111^68#5*899@de!17^11#1*147@de!101^73#5*819@de!15^8#1*131@de!113^67#5*915@de!97^70#5*787@
+de|6|de!111^68#5*899@de!15^11#1*131@de!17^8#1*147@de!101^73#5*819@de!113^67#5*915@de!97^70#5*787@
 des|1|description!85^44#9*691@
 div|2|div!13^14#1*115@division!13^8#5*114@
 dst|1|dst!115^20#1*931@
@@ -292,7 +292,7 @@ ins|4|insertChicken!85^9#5*690@insertStock!91^8#5*738@insertStock!129^3#5*1042@i
 ite|4|itemsPrice!9^42#5*83@items!85^40#5*691@items!91^35#9*739@itemsTitle!9^41#5*83@
 jin|1|JindoDog!123^1#7*993@
 lin|1|link!85^45#9*691@
-lis|10|list!111^70#5*899@list!15^11#5*130@listans!9^58#5*83@list3!77^11#1*627@listCode!9^45#5*83@list2!77^2#1*627@listName!9^44#5*83@listPrice!9^46#5*83@list1!77^1#1*627@list!17^16#5*146@
+lis|10|list!111^70#5*899@listans!9^58#5*83@list3!77^11#1*627@listCode!9^45#5*83@list!17^11#5*146@list2!77^2#1*627@listName!9^44#5*83@listPrice!9^46#5*83@list1!77^1#1*627@list!15^16#5*130@
 mat|1|matrix!115^19#1*931@
 min|4|mine!103^3#1*835@min!13^12#1*115@min!13^4#5*114@mine!105^2#1*851@
 mni|1|mnist!131^3#1*1059@
