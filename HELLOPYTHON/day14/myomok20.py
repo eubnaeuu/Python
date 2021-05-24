@@ -57,7 +57,7 @@ class MyWindow(QMainWindow, form_class):
             self.pbtn2d.append(pb_line)
         
         self.resetbtn = QPushButton(self)
-        self.resetbtn.setGeometry(800, 70, 80, 40)
+        self.resetbtn.setGeometry(800, 30, 80, 40)
         self.resetbtn.setText('reset')
         self.resetbtn.clicked.connect(self.myreset)
         self.myrender()
@@ -229,8 +229,7 @@ class MyWindow(QMainWindow, form_class):
                 QMessageBox.about(self, '알림창', "흑돌이 승리하였습니다")
             else:
                 QMessageBox.about(self, '알림창', "백돌이 승리하였습니다")
-            
-            return
+            return True
         
         self.flag_wb = not self.flag_wb                
                     
@@ -260,11 +259,14 @@ class MyWindow(QMainWindow, form_class):
             self.arr2d[i][j] = 1
             stone = 1
             self.myrender()
-            self.check(i,j,1)
+            if self.check(i,j,1):
+                return
             
             self.Putcom(self.comi,self.comj)
             self.myrender()
-            self.check(self.comi,self.comj,2)
+            
+            if self.check(self.comi,self.comj,2):
+                return
             self.comj += 1
             
         
