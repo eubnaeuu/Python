@@ -10,7 +10,6 @@ import numpy as np
 print(train_images[0])
 print(train_labels[0])
 
-arr = [0,1,2,3,4,5,6,7,8,9]
 for idx, img in enumerate(test_images):
     cv2.imwrite('test/{}_{}.jpg'.format(test_labels[idx],idx),img)
     if idx > 100:

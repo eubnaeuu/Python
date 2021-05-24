@@ -4,8 +4,12 @@ from keras.datasets import mnist
 from keras.utils.np_utils import to_categorical
 import numpy as np
 from dask.dataframe.core import _emulate
+import cv2
 
 (train_images, train_labels), (test_images, test_labels) = mnist.load_data()
+
+old_test_images = test_images
+old_test_labels = test_labels
 
 # print(test_labels[0])
 
@@ -34,18 +38,17 @@ model.fit(train_images, train_labels, epochs=5, batch_size=128)
 
 predictions = model.predict(test_images)
 
-# print(np.argmax(predictions[0]))
-
+# predictions[0~60000] : 컴퓨터의 예측수치들
+# old_test_labels[0~60000] : 실제 숫자
+# old_test_images[0~60000] : 실제 이미지 파일
 
 # 틀린 것을 image파일로 저장하기
 for idx, label in enumerate(test_labels):
     tmp = np.argmax(predictions[idx])
     if np.argmax(label) != tmp:
-        print(idx)
+        cv2.imwrite('notEqual/label[{}]_com[{}]_{}.jpg'.format(np.argmax(label),tmp,idx),old_test_images[idx])
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()        
         
         
-        
-# arr2d_np = np.array(arr2d[0],dtype=np.uint8)
-# cv2.imshow('test image',arr2d_np)
-# cv2.waitKey(0)
-# cv2.destroyAllWindows()

@@ -5,8 +5,10 @@ from keras.utils.np_utils import to_categorical
 
 (train_images, train_labels), (test_images, test_labels) = mnist.load_data()
 
-print(train_labels.shape)
-print(train_labels[1])
+print(train_labels.shape)    # (60000,)
+print(train_labels[1])       # 0
+print(train_images[1])       # 
+print(train_images.shape[1]) # 28
 
 train_images = train_images.reshape((60000, 28 * 28))
 train_images = train_images.astype('float32') / 255
@@ -18,8 +20,10 @@ train_labels = to_categorical(train_labels) # 0~9 숫자를 배열 idx로 표현
 test_labels = to_categorical(test_labels)
 
 
-print(train_labels.shape)
-print(train_labels[1])
+print(train_labels.shape)   # (60000, 10)
+print(train_labels[1])      # [1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+
+
 
 # 몰라도됨
 model = models.Sequential()
