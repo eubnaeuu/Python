@@ -2,5 +2,11 @@
 <workingSetManager>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1619745211651_0" label="Java Main Sources" name="Java Main Sources"/>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1619745211658_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1621900795756_3" label="API" name="API">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/navercapcha" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/naverlogin" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/coolsms" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1619745223691_2" label="Window Working Set" name="Aggregate for window 1619745223691"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1621932734508_4" label="Window Working Set" name="Aggregate for window 1621932734508"/>
 </workingSetManager>

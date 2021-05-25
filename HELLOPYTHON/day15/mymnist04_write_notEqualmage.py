@@ -38,15 +38,11 @@ model.fit(train_images, train_labels, epochs=5, batch_size=128)
 
 predictions = model.predict(test_images)
 
-# predictions[0~60000] : 컴퓨터의 예측수치들
-# old_test_labels[0~60000] : 실제 숫자
-# old_test_images[0~60000] : 실제 이미지 파일
-
 # 틀린 것을 image파일로 저장하기
 for idx, label in enumerate(test_labels):
-    tmp = np.argmax(predictions[idx])
-    if np.argmax(label) != tmp:
-        cv2.imwrite('notEqual/label[{}]_com[{}]_{}.jpg'.format(np.argmax(label),tmp,idx),old_test_images[idx])
+    compred = np.argmax(predictions[idx])
+    if np.argmax(label) != compred:
+        cv2.imwrite('notEqual/label[{}]_com[{}]_{}.jpg'.format(np.argmax(label),compred,idx),old_test_images[idx])
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()        
