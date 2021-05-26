@@ -20,7 +20,6 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 
-
 # Convert Image to Grayscale
 gray = cv2.cvtColor(img_ori, cv2.COLOR_BGR2GRAY)
 cv2.imshow('gray1',gray)

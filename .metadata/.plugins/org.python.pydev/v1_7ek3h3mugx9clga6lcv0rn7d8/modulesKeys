@@ -4973,8 +4973,12 @@ curses.panel|D:\Anaconda3\lib\curses\panel.py
 curses.textpad|D:\Anaconda3\lib\curses\textpad.py
 cv2
 cv2.__init__|D:\Anaconda3\lib\site-packages\cv2\__init__.py
+cv2._extra_py_code.__init__|D:\Anaconda3\lib\site-packages\cv2\_extra_py_code\__init__.py
+cv2.config|D:\Anaconda3\lib\site-packages\cv2\config.py
 cv2.cv2|D:\Anaconda3\lib\site-packages\cv2\cv2.cp38-win_amd64.pyd
 cv2.data.__init__|D:\Anaconda3\lib\site-packages\cv2\data\__init__.py
+cv2.load_config_py2|D:\Anaconda3\lib\site-packages\cv2\load_config_py2.py
+cv2.load_config_py3|D:\Anaconda3\lib\site-packages\cv2\load_config_py3.py
 cv2.opencv_videoio_ffmpeg452_64|D:\Anaconda3\lib\site-packages\cv2\opencv_videoio_ffmpeg452_64.dll
 cv2.version|D:\Anaconda3\lib\site-packages\cv2\version.py
 cwp|D:\Anaconda3\cwp.py
