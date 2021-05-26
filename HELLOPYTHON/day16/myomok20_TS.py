@@ -8,7 +8,7 @@ from PyQt5 import uic, QtGui
 from PyQt5.Qt import QSize, QMessageBox
 from conda.common._logic import TRUE
 
-model = load_model('models/20201213_202430.h5')
+model = load_model('models/20210320_172325.h5')
 
 form_class = uic.loadUiType("myomok20.ui")[0]
 class MyWindow(QMainWindow, form_class):

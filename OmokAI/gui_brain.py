@@ -3,7 +3,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 from gomoku import Board, Gomoku
 
-model = load_model('models/20201213_202430.h5')
+model = load_model('models/20210320_172325.h5')
 
 
 def getComij(arr_2d) :
