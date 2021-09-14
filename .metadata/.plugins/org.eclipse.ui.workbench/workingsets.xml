@@ -7,6 +7,13 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/naverlogin" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/coolsms" type="4"/>
 </workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1622078937438_5" label="AI" name="AI">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AI_gababo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AI_genetic_snake_master" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/HelloCar" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AI_2Team" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ANPR-with-Yolov41" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1619745223691_2" label="Window Working Set" name="Aggregate for window 1619745223691"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1621932734508_4" label="Window Working Set" name="Aggregate for window 1621932734508"/>
 </workingSetManager>
